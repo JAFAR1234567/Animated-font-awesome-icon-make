@@ -1,0 +1,12 @@
+@import"partials/variables";
+@import"partials/common";
+@import"partials/extends";
+@import"partials/mixin";
+
+body{
+  display: grid;
+  height: 50vh;
+  place-items: center;
+  background-color: $bg-color;
+  color: $white;
+}
